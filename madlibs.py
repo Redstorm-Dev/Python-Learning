@@ -1,0 +1,8 @@
+print("Welcome to the Mad Libs generator! Input a few words below:")
+print("Name: ", end="")
+name = input()
+print("Activity (habitual form): ", end="")
+activity = input()
+print("Location (no The): ", end="")
+location = input()
+print("You,", name, "are doing", activity, "in the", location, ".")
